@@ -1,0 +1,32 @@
+.img-block{
+    display: inline-block;
+}
+.home-img{
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    display: block;
+}
+.heading{
+    background-color: #696c5a;
+    color:#ffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+.center-position
+{
+    text-align: center;
+    font-size: 20px;   
+}
+.pokemon-box
+{
+    display: inline-block;
+    width: 300px;
+    border:5px ;
+    border-bottom: 2px;
+}
+.pokemon-box img
+{
+    width: 100px;
+}

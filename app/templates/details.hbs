@@ -1,0 +1,14 @@
+<div class="pokemon-box">
+  <img src={{model.avatar}} alt={{model.name}}>
+  <h3>Name: {{model.name}}</h3>
+  <h3>Height: {{heightWithUnits}}</h3>
+  <h3>Weight: {{weightWithUnits}}</h3>
+  <h3>Types:  {{model.types}}</h3>
+  <h3 >{{is-heavy-weight model.weight}}</h3>
+  {{#if model.props.length }}
+    <button {{action toggle }}>Reveal Props</button>
+    {{#if isShowingResult}}
+      <div><b>{{props}}</b></div>
+    {{/if}}
+  {{/if}}
+</div>

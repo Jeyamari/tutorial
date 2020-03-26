@@ -1,0 +1,12 @@
+<div >
+  <h1>Welcome to PokeDex</h1>
+</div>
+<div class="img-block">
+  <img class="home-img" alt =" home-img" src="assets/images/pikachu.jpg">
+</div>
+
+<div class="center-position">
+  {{#link-to "pokedex" (query-params sort_value="name" order=null)}}
+    Pokedex
+  {{/link-to}}
+</div>

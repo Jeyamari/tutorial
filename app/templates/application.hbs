@@ -1,5 +1,12 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div  class="heading">
+  <strong >PokeDex</strong>
+  {{#link-to "pokedex" (query-params sort_value="name" order=null)}}
+    PokeDex
+  {{/link-to}}
+  {{#link-to "welcome" }}
+    Home
+  {{/link-to}}
+
+</div>
 
 {{outlet}}
